@@ -49,6 +49,7 @@ async function postTasks(task) {
 
         const formattedTask = {
             task_id: taskRow.task_id,
+            task_notes: taskRow.task_notes,
             task_description: taskRow.task_description,
             task_completed: taskRow.task_completed === 1
         }
